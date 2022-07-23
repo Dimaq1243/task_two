@@ -1,0 +1,8 @@
+.list{
+    list-style-type: none;
+}
+.list::before{
+    color: red;
+    content: "▪";
+    padding-right: 10px;
+}
